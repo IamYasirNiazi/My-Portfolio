@@ -9,8 +9,11 @@ const Qualification = () => {
         document.getElementById('work').classList.remove("hide");
         document.getElementById('education').classList.remove("display");
         document.getElementById('education').classList.add("hide");
+<<<<<<< HEAD
         document.getElementById('qualification-education').classList.remove("qualification-btn-active");
         document.getElementById('qualification-work').classList.add("qualification-btn-active");
+=======
+>>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
     }
 
     function education(){
@@ -18,8 +21,11 @@ const Qualification = () => {
         document.getElementById('education').classList.remove("hide");
         document.getElementById('work').classList.remove("display");
         document.getElementById('work').classList.add("hide");
+<<<<<<< HEAD
         document.getElementById('qualification-education').classList.add("qualification-btn-active");
         document.getElementById('qualification-work').classList.remove("qualification-btn-active");
+=======
+>>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
     }
     
 
@@ -35,11 +41,19 @@ const Qualification = () => {
                     <div className='qualification__container__row__category d-flex align-items-center justify-content-center gap-5'>
                         <span className='d-flex align-items-start justify-content-center gap-3' onClick={work}>
                             <i class="ri-briefcase-fill"></i>
+<<<<<<< HEAD
                             <h3 className='qualification-btn-active' id='qualification-work'>Work</h3>
                         </span>
                         <span className='d-flex align-items-start justify-content-center gap-3' onClick={education}>
                             <i class="ri-booklet-fill"></i>
                             <h3 id='qualification-education'>Education</h3>
+=======
+                            <h3>Work</h3>
+                        </span>
+                        <span className='d-flex align-items-start justify-content-center gap-3' onClick={education}>
+                            <i class="ri-booklet-fill"></i>
+                            <h3>Education</h3>
+>>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                         </span>
                     </div>
                     <Col className='col-lg-8 qualification__container__row__col d-flex flex-column justify-content-center'>
@@ -48,9 +62,15 @@ const Qualification = () => {
 
                             <div className='qualification__container__row__col__content__one d-flex justify-content-end gap-4'>
                                 <div className='qualification__container__row__col__content__one__desc'>
+<<<<<<< HEAD
                                     <h3>IT Manager</h3>
                                     <p>Sargodha - Niazi Medical College</p>
                                     <span><i class="ri-calendar-line"></i> &nbsp; Aug, 2023 - Present</span>
+=======
+                                    <h3>Frontend Developer(React)</h3>
+                                    <p>Rawalpindi - Nextpak Agile Sol.</p>
+                                    <span><i class="ri-calendar-line"></i> &nbsp; Dec, 2022 - Feb, 2023</span>
+>>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                                 </div>
                                 <div className='qualification__container__row__col__content__one__shape d-flex flex-column align-items-center'>
                                     <span className='qualification__container__row__col__content__one__shape__round'></span>
@@ -63,9 +83,15 @@ const Qualification = () => {
                                     <span className='qualification__container__row__col__content__two__shape__line'></span>
                                 </div>
                                 <div className='qualification__container__row__col__content__two__desc'>
+<<<<<<< HEAD
                                     <h3>Software Engineer (Intern)</h3>
                                     <p>Lahore - GeekyBugs</p>
                                     <span><i class="ri-calendar-line"></i> &nbsp; July, 2023 - Aug, 2023</span>
+=======
+                                    <h3>MERN Stack (Intern)</h3>
+                                    <p>Faisalabad - Softigh Company</p>
+                                    <span><i class="ri-calendar-line"></i> &nbsp; Oct, 2022 - Nov, 2022</span>
+>>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                                 </div>
                             </div>
                             <div className='qualification__container__row__col__content__three d-flex justify-content-end gap-4'>

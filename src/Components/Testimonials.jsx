@@ -41,7 +41,11 @@ const Testimonials = () => {
                                     <div className='testimonials__container__row__col__wrapper__header__social-icon'>
                                         {/* <i class="ri-linkedin-box-fill"></i> */}
                                         {/* <i class="ri-external-link-line"></i> */}
+<<<<<<< HEAD
                                         <NavLink href='https://www.fiverr.com/iamyasirniazi/design-and-develop-nextjs-reactjs-nodejs-and-mongodb-business-website' target='_blank'><i class="ri-external-link-line"></i></NavLink>
+=======
+                                        <NavLink href='https://www.fiverr.com/iamyasirniazi/design-and-develop-nextjs-reactjs-nodejs-and-mongodb-business-website?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=3r7a0m' target='_blank'><i class="ri-external-link-line"></i></NavLink>
+>>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                                     </div>
                                 </div>
                                 <div className='testimonials__container__row__col__wrapper__comments'>
@@ -76,7 +80,11 @@ const Testimonials = () => {
                                     <div className='testimonials__container__row__col__wrapper__header__social-icon'>
                                         {/* <i class="ri-linkedin-box-fill"></i> */}
                                         {/* <i class="ri-external-link-line"></i> */}
+<<<<<<< HEAD
                                         <NavLink href='https://www.fiverr.com/iamyasirniazi/design-and-develop-nextjs-reactjs-nodejs-and-mongodb-business-website' target='_blank'><i class="ri-external-link-line"></i></NavLink>
+=======
+                                        <NavLink href='https://www.fiverr.com/iamyasirniazi/design-and-develop-nextjs-reactjs-nodejs-and-mongodb-business-website?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=3r7a0m' target='_blank'><i class="ri-external-link-line"></i></NavLink>
+>>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                                     </div>
                                 </div>
                                 <div className='testimonials__container__row__col__wrapper__comments'>
@@ -85,6 +93,7 @@ const Testimonials = () => {
                                     </p>
                                 </div>
                             </div>
+<<<<<<< HEAD
                             <div className='testimonials__container__row__col__wrapper d-flex flex-column justify-content-center'>
                                 <div className='testimonials__container__row__col__wrapper__header d-flex justify-content-between align-items-start'>
                                     <div className='testimonials__container__row__col__wrapper__header__info d-flex align-items-start gap-2'>
@@ -260,6 +269,8 @@ const Testimonials = () => {
                                     </p>
                                 </div>
                             </div>
+=======
+>>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                         </div>
                     </Col>
                 </Row>

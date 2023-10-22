@@ -8,7 +8,11 @@ const Services = () => {
             <Container className='services__container'>
                 <div className='heading'>
                     <h2>Services</h2>
+<<<<<<< HEAD
                     <p className='text-white'>What I offer</p>
+=======
+                    <p className='text-white'>What i offer</p>
+>>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                 </div>
                 <Row className='services__container__row d-flex flex-wrap align-items-center justify-content-center gap-3'>
                     
