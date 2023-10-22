@@ -1,0 +1,334 @@
+.nav {
+  background-color: var(--site-header-bg);
+}
+.nav__container__row__col {
+  padding-top: 2rem;
+}
+@media (min-width: 200px) and (max-width: 359px) {
+  .nav__container__row__col {
+    padding-top: 0.8rem;
+  }
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  .nav__container__row__col {
+    padding-top: 1rem;
+  }
+}
+@media (min-width: 200px) and (max-width: 991px) {
+  .nav__container__row__col__main {
+    display: flex;
+    justify-content: space-between !important;
+    gap: 0 !important;
+    align-items: center !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nav__container__row__col__main {
+    display: flex;
+    justify-content: space-between !important;
+    gap: 0 !important;
+    align-items: center !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .nav__container__row__col__main {
+    display: flex;
+    justify-content: space-between !important;
+    gap: 0 !important;
+    align-items: center !important;
+  }
+}
+.nav__container__row__col__main__logo {
+  width: 13rem !important;
+  cursor: pointer;
+}
+@media (min-width: 200px) and (max-width: 359px) {
+  .nav__container__row__col__main__logo {
+    width: 6.5rem !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 575px) {
+  .nav__container__row__col__main__logo {
+    width: 9rem !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .nav__container__row__col__main__logo {
+    width: 11.5rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 880px) {
+  .nav__container__row__col__main__logo {
+    width: 13rem !important;
+  }
+}
+@media (min-width: 881px) and (max-width: 991px) {
+  .nav__container__row__col__main__logo {
+    width: 13.5rem !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nav__container__row__col__main__logo {
+    width: 12.5rem !important;
+  }
+}
+.nav__container__row__col__main__navigation {
+  list-style-type: none;
+  margin: auto 0;
+  display: flex;
+  gap: 0.3rem;
+}
+@media (min-width: 200px) and (max-width: 991px) {
+  .nav__container__row__col__main__navigation {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nav__container__row__col__main__navigation {
+    display: flex;
+    margin: auto !important;
+    gap: 0rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .nav__container__row__col__main__navigation {
+    display: flex;
+    margin: auto !important;
+    gap: 0rem;
+    margin-left: -0.5rem !important;
+  }
+}
+.nav__container__row__col__main__navigation li {
+  padding: 0rem 1rem;
+  font-weight: 500 !important;
+  cursor: pointer;
+  color: var(--site-header-color);
+}
+@media (min-width: 200px) and (max-width: 991px) {
+  .nav__container__row__col__main__navigation li {
+    transition: 0.3s all ease-in-out !important;
+    color: var(--site-nav-toggle-color) !important;
+  }
+  .nav__container__row__col__main__navigation li:hover {
+    color: var(--site-nav-toggle-color-hover) !important;
+  }
+}
+@media (min-width: 992px) {
+  .nav__container__row__col__main__navigation li:hover {
+    color: var(--site-header-color-hover) !important;
+  }
+}
+@media (min-width: 200px) and (max-width: 575px) {
+  .nav__container__row__col__main__navigation li {
+    padding: 0 !important;
+    font-weight: 500 !important;
+    font-size: 0.85rem !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .nav__container__row__col__main__navigation li {
+    padding: 0 !important;
+    font-weight: 500;
+    font-size: 0.95rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav__container__row__col__main__navigation li {
+    padding: 0 !important;
+    font-weight: 500;
+    font-size: 1.05rem !important;
+  }
+}
+.nav__container__row__col__main__contact {
+  margin-left: 1rem;
+}
+.nav__container__row__col__main__contact__icon1 {
+  color: var(--site-header-icon1);
+  font-size: 1.3rem;
+}
+@media (min-width: 200px) and (max-width: 359px) {
+  .nav__container__row__col__main__contact__icon1 {
+    display: none !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 575px) {
+  .nav__container__row__col__main__contact__icon1 {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .nav__container__row__col__main__contact__icon1 {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav__container__row__col__main__contact__icon1 {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nav__container__row__col__main__contact__icon1 {
+    display: none;
+    margin-left: 0 !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .nav__container__row__col__main__contact__icon1 {
+    display: none;
+  }
+}
+.nav__container__row__col__main__contact__icon2 {
+  color: var(--site-header-icon2);
+  font-size: 1.3rem;
+}
+@media (min-width: 200px) and (max-width: 359px) {
+  .nav__container__row__col__main__contact__icon2 {
+    display: none !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 575px) {
+  .nav__container__row__col__main__contact__icon2 {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .nav__container__row__col__main__contact__icon2 {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav__container__row__col__main__contact__icon2 {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nav__container__row__col__main__contact__icon2 {
+    display: none;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .nav__container__row__col__main__contact__icon2 {
+    display: none;
+  }
+}
+.nav__container__row__col__main__contact__btn {
+  outline: none;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 0.4rem;
+  background: var(--site-header-btn-bg);
+  color: var(--site-header-btn-color);
+}
+.nav__container__row__col__main__contact__btn:hover {
+  background-color: var(--site-header-btn-bg-hover);
+  color: var(--site-header-btn-color-hover);
+  transition: 0.3s all ease-in-out;
+}
+@media (min-width: 200px) and (max-width: 767px) {
+  .nav__container__row__col__main__contact__btn {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav__container__row__col__main__contact__btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.4rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nav__container__row__col__main__contact__btn {
+    display: none;
+  }
+}
+.nav__container__row__col__main__contact__hamburger-open {
+  color: var(--site-header-btn-color);
+  font-size: 0.8rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.2rem;
+  background-color: var(--site-header-btn-bg);
+  transition: 0.3s all ease-in-out !important;
+}
+.nav__container__row__col__main__contact__hamburger-open:hover {
+  color: var(--site-header-btn-color-hover);
+  background-color: var(--site-header-btn-bg-hover);
+}
+@media (min-width: 200px) and (max-width: 991px) {
+  .nav__container__row__col__main__contact__hamburger-open {
+    position: relative !important;
+    z-index: 1000 !important;
+  }
+}
+@media (min-width: 992px) {
+  .nav__container__row__col__main__contact__hamburger-open {
+    display: none !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 575px) {
+  .nav__container__row__col__main__contact__hamburger-open {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .nav__container__row__col__main__contact__hamburger-open {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav__container__row__col__main__contact__hamburger-open {
+    font-size: 1.5rem;
+    padding: 0.18rem 0.8rem;
+    border-radius: 0.3rem;
+  }
+}
+.nav__container__row__col__main__contact__hamburger-close {
+  color: var(--site-header-btn2-color);
+  font-size: 0.8rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.2rem;
+  background-color: var(--site-header-btn2-bg);
+  transition: 0.3s all ease-in-out !important;
+}
+.nav__container__row__col__main__contact__hamburger-close:hover {
+  color: var(--site-header-btn2-color-hover);
+  background-color: var(--site-header-btn2-bg-hover);
+}
+@media (min-width: 200px) and (max-width: 991px) {
+  .nav__container__row__col__main__contact__hamburger-close {
+    position: relative !important;
+    z-index: 1000 !important;
+  }
+}
+@media (min-width: 992px) {
+  .nav__container__row__col__main__contact__hamburger-close {
+    display: none !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 575px) {
+  .nav__container__row__col__main__contact__hamburger-close {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .nav__container__row__col__main__contact__hamburger-close {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav__container__row__col__main__contact__hamburger-close {
+    font-size: 1.5rem;
+    padding: 0.18rem 0.8rem;
+    border-radius: 0.3rem;
+  }
+}
+@media (min-width: 200px) and (max-width: 767px) {
+  .nav__container__row__col__main__contact {
+    margin-left: 0;
+    gap: 0.7rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav__container__row__col__main__contact {
+    margin-left: 0;
+    gap: 1.5rem !important;
+  }
+}

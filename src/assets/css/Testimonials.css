@@ -1,0 +1,91 @@
+.testimonials {
+  background: var(--site-testimonial-bg);
+  width: 100%;
+}
+.testimonials__container .heading h2 {
+  color: var(--site-testimonial-color);
+}
+@media (min-width: 200px) and (max-width: 359px) {
+  .testimonials__container .heading h2 {
+    font-size: 1.45rem !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 575px) {
+  .testimonials__container .heading h2 {
+    font-size: 1.7rem !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .testimonials__container .heading h2 {
+    font-size: 2rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 880px) {
+  .testimonials__container .heading h2 {
+    font-size: 2.3rem !important;
+  }
+}
+@media (min-width: 200px) and (max-width: 359px) {
+  .testimonials__container .heading p {
+    font-size: 0.75rem !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 575px) {
+  .testimonials__container .heading p {
+    font-size: 0.85rem !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .testimonials__container .heading p {
+    font-size: 1.03rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 880px) {
+  .testimonials__container .heading p {
+    font-size: 1.15rem !important;
+  }
+}
+.testimonials__container__row {
+  margin-top: 4rem;
+}
+.testimonials__container__row__col__wrapper {
+  background: var(--site-testimonial-bg1);
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+.testimonials__container__row__col__wrapper__header__info__img {
+  width: 2.8rem !important;
+}
+.testimonials__container__row__col__wrapper__header__info__title__name {
+  color: var(--site-testimonial-title);
+  font-size: 1.1rem;
+}
+.testimonials__container__row__col__wrapper__header__info__title__stars {
+  margin-top: -0.3rem;
+  color: var(--site-testimonial-stars);
+}
+.testimonials__container__row__col__wrapper__header__info__title__desc {
+  margin-top: 0.5rem;
+  color: var(--site-testimonial-title);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.testimonials__container__row__col__wrapper__header__social-icon i {
+  font-size: 1.3rem;
+  font-weight: normal !important;
+  color: var(--site-testimonial-social);
+}
+.testimonials__container__row__col__wrapper__comments p {
+  color: var(--site-testimonial-content);
+  font-size: 1rem;
+  font-weight: 400;
+  height: 5rem !important;
+  padding-left: 3rem !important;
+}
+@media (min-width: 200px) and (max-width: 359px) {
+  .testimonials__container__row__col__wrapper__comments p {
+    height: auto !important;
+  }
+}

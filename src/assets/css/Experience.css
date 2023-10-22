@@ -1,0 +1,105 @@
+.experience {
+  padding: 1.7rem 0;
+  width: 100%;
+  background: var(--site-experience-counter-bg);
+}
+@media (min-width: 200px) and (max-width: 359px) {
+  .experience__container__row__col__experience {
+    display: flex;
+    width: 100%;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 575px) {
+  .experience__container__row__col__experience {
+    display: flex;
+    width: 100%;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .experience__container__row__col__experience {
+    display: flex;
+    width: 100%;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .experience__container__row__col__experience {
+    display: flex;
+    width: 30%;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+.experience__container__row__col__experience__year {
+  color: var(--site-experience-counter-color);
+  font-size: 5rem;
+  font-weight: 900;
+}
+@media (min-width: 200px) and (max-width: 359px) {
+  .experience__container__row__col__experience__year {
+    color: var(--site-experience-counter-color);
+    font-size: 3.8rem;
+    font-weight: 900;
+  }
+}
+@media (min-width: 360px) and (max-width: 575px) {
+  .experience__container__row__col__experience__year {
+    color: var(--site-experience-counter-color);
+    font-size: 4rem;
+    font-weight: 900;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .experience__container__row__col__experience__year {
+    color: var(--site-experience-counter-color);
+    font-size: 4.3rem;
+    font-weight: 900;
+  }
+}
+.experience__container__row__col__experience__desc {
+  color: var(--site-experience-counter-color);
+  font-size: 1.3rem;
+  font-weight: 500;
+  width: 45%;
+  line-height: 1.3;
+}
+@media (min-width: 200px) and (max-width: 359px) {
+  .experience__container__row__col__experience__desc {
+    color: var(--site-experience-counter-color);
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+}
+@media (min-width: 360px) and (max-width: 575px) {
+  .experience__container__row__col__experience__desc {
+    color: var(--site-experience-counter-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 45%;
+    line-height: 1.3;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .experience__container__row__col__experience__desc {
+    color: var(--site-experience-counter-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 50%;
+    line-height: 1.3;
+  }
+}
+@media (min-width: 767px) and (max-width: 1199px) {
+  .experience__container__row__col__experience__desc {
+    color: var(--site-experience-counter-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    width: 53%;
+    line-height: 1.3;
+  }
+}
