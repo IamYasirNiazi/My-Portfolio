@@ -72,7 +72,7 @@ const Qualification = () => {
                                 <div className='qualification__container__row__col__content__three__desc'>
                                     <h3>Senior Graphic Designer</h3>
                                     <p>Canada - Netmatico Pvt Ltd.</p>
-                                    <span><i class="ri-calendar-line"></i> &nbsp; Jan, 2021 - Jun, 2022</span>
+                                    <span><i class="ri-calendar-line"></i> &nbsp; Jan, 2020 - Jun, 2022</span>
                                 </div>
                                 <div className='qualification__container__row__col__content__three__shape d-flex flex-column align-items-center'>
                                     <span className='qualification__container__row__col__content__three__shape__round'></span>
