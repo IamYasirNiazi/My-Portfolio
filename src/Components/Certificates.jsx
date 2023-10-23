@@ -6,10 +6,7 @@ import certificate_Image3 from "../assets/images/PITB_Creative_Desin.jpg";
 import certificate_Image4 from "../assets/images/Coursera_Version_Control.jpg";
 import certificate_Image5 from "../assets/images/Coursera_Html_and_Css_in_depth.jpg";
 import certificate_Image6 from "../assets/images/Coursera_React_Basics.jpg";
-<<<<<<< HEAD
 import certificate_Image7 from "../assets/images/Coursera_Advanced_React.jpg";
-=======
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
 
 const Certificates = () => {
   return (
@@ -18,11 +15,7 @@ const Certificates = () => {
         <Container className="certificates__container">
           <div className="heading">
             <h2>Certificates</h2>
-<<<<<<< HEAD
             <p>What I learned</p>
-=======
-            <p>What i learned</p>
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
           </div>
           <Row className="certificates__container__row d-flex justify-content-center align-items-center gap-3">
             <Col className="col col-lg-12 certificates__container__row__col d-flex justify-content-center align-items-center">
@@ -111,7 +104,6 @@ const Certificates = () => {
                 </NavLink>
 
                 <NavLink
-<<<<<<< HEAD
                   href="https://coursera.org/share/19174cf5cc67bad6d2623bb3e4a2ed33"
                   target="_blank"
                 >
@@ -128,8 +120,6 @@ const Certificates = () => {
                 </NavLink>
 
                 <NavLink
-=======
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                   href="https://www.erozgaar.pitb.gov.pk/"
                   target="_blank"
                 >

@@ -41,11 +41,7 @@ const Testimonials = () => {
                                     <div className='testimonials__container__row__col__wrapper__header__social-icon'>
                                         {/* <i class="ri-linkedin-box-fill"></i> */}
                                         {/* <i class="ri-external-link-line"></i> */}
-<<<<<<< HEAD
                                         <NavLink href='https://www.fiverr.com/iamyasirniazi/design-and-develop-nextjs-reactjs-nodejs-and-mongodb-business-website' target='_blank'><i class="ri-external-link-line"></i></NavLink>
-=======
-                                        <NavLink href='https://www.fiverr.com/iamyasirniazi/design-and-develop-nextjs-reactjs-nodejs-and-mongodb-business-website?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=3r7a0m' target='_blank'><i class="ri-external-link-line"></i></NavLink>
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                                     </div>
                                 </div>
                                 <div className='testimonials__container__row__col__wrapper__comments'>
@@ -80,11 +76,8 @@ const Testimonials = () => {
                                     <div className='testimonials__container__row__col__wrapper__header__social-icon'>
                                         {/* <i class="ri-linkedin-box-fill"></i> */}
                                         {/* <i class="ri-external-link-line"></i> */}
-<<<<<<< HEAD
+
                                         <NavLink href='https://www.fiverr.com/iamyasirniazi/design-and-develop-nextjs-reactjs-nodejs-and-mongodb-business-website' target='_blank'><i class="ri-external-link-line"></i></NavLink>
-=======
-                                        <NavLink href='https://www.fiverr.com/iamyasirniazi/design-and-develop-nextjs-reactjs-nodejs-and-mongodb-business-website?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=3r7a0m' target='_blank'><i class="ri-external-link-line"></i></NavLink>
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                                     </div>
                                 </div>
                                 <div className='testimonials__container__row__col__wrapper__comments'>
@@ -93,7 +86,6 @@ const Testimonials = () => {
                                     </p>
                                 </div>
                             </div>
-<<<<<<< HEAD
                             <div className='testimonials__container__row__col__wrapper d-flex flex-column justify-content-center'>
                                 <div className='testimonials__container__row__col__wrapper__header d-flex justify-content-between align-items-start'>
                                     <div className='testimonials__container__row__col__wrapper__header__info d-flex align-items-start gap-2'>
@@ -269,8 +261,41 @@ const Testimonials = () => {
                                     </p>
                                 </div>
                             </div>
-=======
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
+                            <div className='testimonials__container__row__col__wrapper d-flex flex-column justify-content-center'>
+                                <div className='testimonials__container__row__col__wrapper__header d-flex justify-content-between align-items-start'>
+                                    <div className='testimonials__container__row__col__wrapper__header__info d-flex align-items-start gap-2'>
+                                        <img src={Women_img} alt="" className='testimonials__container__row__col__wrapper__header__info__img img-fluid' />
+                                        <div className='testimonials__container__row__col__wrapper__header__info__title d-flex flex-column align-items-start'>
+                                            <h5 className='testimonials__container__row__col__wrapper__header__info__title__name'>
+                                            Pamelachen
+                                            </h5>
+                                            <span className='testimonials__container__row__col__wrapper__header__info__title__stars d-flex align-items-center'>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            {/* <i class="ri-star-half-line"></i> */}
+                                            {/* <i class="ri-star-line"></i> */}
+                                            </span>
+                                            <p className='testimonials__container__row__col__wrapper__header__info__title__desc'>
+                                                {/* Provided Html Css Javascript Website Service */}
+                                                United States
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className='testimonials__container__row__col__wrapper__header__social-icon'>
+                                        {/* <i class="ri-linkedin-box-fill"></i> */}
+                                        {/* <i class="ri-external-link-line"></i> */}
+                                        <NavLink href='https://www.fiverr.com/iamyasirniazi/do-frontend-web-development-in-html-css-bootstrap-psd-to-html-figma-to-html' target='_blank'><i class="ri-external-link-line"></i></NavLink>
+                                    </div>
+                                </div>
+                                <div className='testimonials__container__row__col__wrapper__comments'>
+                                    <p>
+                                    Very reliable service. After the project is done, if I need to modify or support, Yasir is always there to give me support.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </Col>
                 </Row>

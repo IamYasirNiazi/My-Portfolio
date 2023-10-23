@@ -2264,7 +2264,6 @@
   background-color: var(--site-skills-icons);
   border-radius: 0.5rem;
 }
-<<<<<<< HEAD
 .skills__container__row__col__content__six, .skills__container__row__col__content__seven, .skills__container__row__col__content__eight, .skills__container__row__col__content__nine {
   margin-top: 2.3rem;
 }
@@ -2332,8 +2331,6 @@
   background-color: var(--site-skills-icons);
   border-radius: 0.5rem;
 }
-=======
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
 
 .certificates {
   background-color: var(--site-experience-counter-bg);
@@ -2493,12 +2490,9 @@
     font-size: 1.2rem !important;
   }
 }
-<<<<<<< HEAD
 .qualification__container__row__category .qualification-btn-active {
   color: #f96244;
 }
-=======
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
 .qualification__container__row__category span h3 {
   color: var(--site-qualification-color);
 }

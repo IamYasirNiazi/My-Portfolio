@@ -46,13 +46,8 @@ const Skills = () => {
                             <span className='d-flex align-items-center gap-4'>
                                 <span className='skills__container__row__col__header__icon'><i class="ri-braces-fill"></i></span>
                                 <div className='skills__container__row__col__header__title'>
-<<<<<<< HEAD
                                     <h4>Mern Stack developer</h4>
                                     <p>More than 1 year</p>
-=======
-                                    <h4>Frontend developer</h4>
-                                    <p>Less than 1 year</p>
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                                 </div>
                             </span>
                             {!fArrow && <i class="ri-arrow-down-s-line skills__container__row__col__header__arrow"></i>}
@@ -114,7 +109,6 @@ const Skills = () => {
                                     <div className='skills__container__row__col__content__five__line__blank'></div>
                                 </div>
                             </div>
-<<<<<<< HEAD
                             <div className='skills__container__row__col__content__six'>
                                 <div className='skills__container__row__col__content__six__desc'>
                                     <span className='skills__container__row__col__content__six__desc__name'>Node Js</span>
@@ -155,8 +149,6 @@ const Skills = () => {
                                     <div className='skills__container__row__col__content__nine__line__blank'></div>
                                 </div>
                             </div>
-=======
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
 
                         </div>
                         {/* </Accordion.Body> */}

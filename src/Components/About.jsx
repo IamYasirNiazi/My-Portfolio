@@ -14,11 +14,7 @@ export const About = () => {
                     <Col className='about__container__row__col1 col col-lg-5 col-xlg-4 d-flex flex-column align-items-start gap-2'>
                         {/* <p className='about__container__row__col1__tagline'>About Me &nbsp; ----------</p> */}
                         <h3  className='about__container__row__col1__title p-1'>Web and Graphics Expert!</h3>
-<<<<<<< HEAD
                         <p  className='about__container__row__col1__desc p-1'>A Professional Frontend Developer and Graphic Designer. I'm a Software Engr graduate with 5 years of experience in Web and Graphics. I am passionate and find freelancing as the opportunity to express my creativity by creating responsive & playful websites and graphics. My Expertise are HTML5, CSS3, Bootstrap, JavaScript, React Js, Next Js, Redux, Sass, Adobe Photoshop and Illustrator.</p>
-=======
-                        <p  className='about__container__row__col1__desc p-1'>A Professional Frontend Developer and Graphic Designer. I'm a Software Engr graduate with 3 years of experience in Web and Graphics. I am passionate and find freelancing as the opportunity to express my creativity by creating responsive & playful websites and graphics. My Expertise are HTML5, CSS3, Bootstrap, JavaScript, React Js, Next Js, Redux, Sass, Adobe Photoshop and Illustrator.</p>
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                         <NavLink href='/Yasir_Resume.pdf' className='about__container__row__col1__btn btn-download btn btn-primary d-flex justify-content-center align-items-center' target='_blank' download>My Resume &nbsp;<i class="ri-download-2-fill"></i></NavLink>
                     </Col>
 

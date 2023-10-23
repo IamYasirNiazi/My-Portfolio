@@ -8,13 +8,10 @@ import Portfolio_Image5 from '../assets/images/Furniture_Store_Web_Design.png'
 import Portfolio_Image6 from '../assets/images/Truck_Web_Design.jpg'
 import Portfolio_Image7 from '../assets/images/Food_Store_Web_Design.png'
 import Portfolio_Image8 from '../assets/images/Section_Design_Reactjs.jpg'
-<<<<<<< HEAD
 import Portfolio_Image9 from '../assets/images/china-food-website.png'
 import Portfolio_Image10 from '../assets/images/nmdc.png'
 import Portfolio_Image11 from '../assets/images/islamle-game-web-app.png'
 import Portfolio_Image12 from '../assets/images/snow-shepherd-pamelachen.png'
-=======
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
 
 
 const Portfolio = () => {
@@ -77,7 +74,6 @@ const Portfolio = () => {
                                 <h5 className='portfolio__container__row__col__content__title text-white'>Food Store Frontend Web Design (Html, Css & Bootstrap)</h5>
                             </div>
                             <div className='portfolio__container__row__col__content item'>
-<<<<<<< HEAD
                                 <img src={Portfolio_Image9} alt="Portfolio pic" className='portfolio__container__row__col__content__img' />
                                 {/* <h5 className='portfolio__container__row__col__content__title text-white'>HTML, CSS Website Design</h5> */}
                                 {/* <p className='portfolio__container__row__col__content__desc text-white'>HTML, CSS Website Design</p> */}
@@ -102,8 +98,6 @@ const Portfolio = () => {
                                 <h5 className='portfolio__container__row__col__content__title text-white'>Shepherd Freelance Web Design (Html, Css & Bootstrap)</h5>
                             </div>
                             <div className='portfolio__container__row__col__content item'>
-=======
->>>>>>> 96f2ebd4acc4623b552704f43c2dca385bba9ff4
                                 <img src={Portfolio_Image8} alt="Portfolio pic" className='portfolio__container__row__col__content__img' />
                                 {/* <h5 className='portfolio__container__row__col__content__title text-white'>HTML, CSS Website Design</h5> */}
                                 {/* <p className='portfolio__container__row__col__content__desc text-white'>HTML, CSS Website Design</p> */}
