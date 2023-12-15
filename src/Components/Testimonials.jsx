@@ -296,6 +296,41 @@ const Testimonials = () => {
                                     </p>
                                 </div>
                             </div>
+                            <div className='testimonials__container__row__col__wrapper d-flex flex-column justify-content-center'>
+                                <div className='testimonials__container__row__col__wrapper__header d-flex justify-content-between align-items-start'>
+                                    <div className='testimonials__container__row__col__wrapper__header__info d-flex align-items-start gap-2'>
+                                        <img src={Women_img} alt="" className='testimonials__container__row__col__wrapper__header__info__img img-fluid' />
+                                        <div className='testimonials__container__row__col__wrapper__header__info__title d-flex flex-column align-items-start'>
+                                            <h5 className='testimonials__container__row__col__wrapper__header__info__title__name'>
+                                            Pamelachen
+                                            </h5>
+                                            <span className='testimonials__container__row__col__wrapper__header__info__title__stars d-flex align-items-center'>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            {/* <i class="ri-star-half-line"></i> */}
+                                            {/* <i class="ri-star-line"></i> */}
+                                            </span>
+                                            <p className='testimonials__container__row__col__wrapper__header__info__title__desc'>
+                                                {/* Provided Html Css Javascript Website Service */}
+                                                United States
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className='testimonials__container__row__col__wrapper__header__social-icon'>
+                                        {/* <i class="ri-linkedin-box-fill"></i> */}
+                                        {/* <i class="ri-external-link-line"></i> */}
+                                        <NavLink href='https://www.fiverr.com/iamyasirniazi/do-frontend-web-development-in-html-css-bootstrap-psd-to-html-figma-to-html' target='_blank'><i class="ri-external-link-line"></i></NavLink>
+                                    </div>
+                                </div>
+                                <div className='testimonials__container__row__col__wrapper__comments'>
+                                    <p>
+                                    Very reliable designer. Highly recommended!
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </Col>
                 </Row>

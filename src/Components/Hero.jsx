@@ -130,7 +130,7 @@ const Hero = (props) => {
                             backSpeed={20}
                             loop/>
                             </h2>
-                            <p className='hero__container__row__col3__main__desc'>Web developer & graphic designer, with <span><br /></span>extensive knowledge and years of experience working in technologies like Next Js, React Js, Redux, Adobe Photoshop and Adobe Illustrator, delivering the quality work.</p>
+                            <p className='hero__container__row__col3__main__desc'>Web developer & graphic designer, with <span><br /></span>extensive knowledge and years of experience working in technologies like Node Js, React Js, Redux, MongoDB, Adobe Photoshop and Adobe Illustrator, delivering the quality work.</p>
                             <div className='hero__container__row__col3__main__contact d-flex flex-column gap-1'>
                                 <span className='hero__container__row__col3__main__contact__phone'>
                                     <i class="ri-phone-fill"></i> &nbsp; +92 (305) 738 8480

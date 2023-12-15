@@ -63,9 +63,9 @@ const Qualification = () => {
                                     <span className='qualification__container__row__col__content__two__shape__line'></span>
                                 </div>
                                 <div className='qualification__container__row__col__content__two__desc'>
-                                    <h3>Software Engineer (Intern)</h3>
-                                    <p>Lahore - GeekyBugs</p>
-                                    <span><i class="ri-calendar-line"></i> &nbsp; July, 2023 - Aug, 2023</span>
+                                    <h3>ReactJs (Intern)</h3>
+                                    <p>Rawalpindi - NextPak</p>
+                                    <span><i class="ri-calendar-line"></i> &nbsp; Mar, 2023 - May, 2023</span>
                                 </div>
                             </div>
                             <div className='qualification__container__row__col__content__three d-flex justify-content-end gap-4'>
